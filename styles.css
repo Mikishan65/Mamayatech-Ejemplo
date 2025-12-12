@@ -507,6 +507,29 @@ h3 {
 
 .cta-bottom { text-align: center; }
 
+img[src$="QR.png"] {
+  display: block;
+  margin: 24px auto 0;
+}
+
+#ubicacion .grid .card:first-child,
+#ubicacion .grid .card:last-child {
+  display: none;
+}
+
+.map-embed {
+  margin-top: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.map-embed iframe {
+  width: 100%;
+  height: 260px;
+  border: 0;
+}
+
 .site-footer {
   padding: 32px 0;
   border-top: 1px solid var(--border);
